@@ -26,7 +26,7 @@ ChromeDriver driver=new ChromeDriver();
 driver.manage().window().maximize();
 driver.get("https://www.amazon.co.uk");
 Thread.sleep(5000);
-//Get screen shot of visible area of page(SWD) - sree
+//Get screen shot of visible area of page(SWD) 
 File f1=driver.getScreenshotAs(OutputType.FILE);
         File dest1=new File("haripriya defect on amazon screenshot.png");
         FileHandler.copy(f1,dest1);
