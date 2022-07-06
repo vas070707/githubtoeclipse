@@ -1,3 +1,5 @@
+// ashot program 2 where am uploading the prgroam from github to eclipse
+
 package FebmarBatch;
 import java.awt.image.BufferedImage;
 import java.io.File;
