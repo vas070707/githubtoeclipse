@@ -31,7 +31,7 @@ File f1=driver.getScreenshotAs(OutputType.FILE);
         File dest1=new File("haripriya defect on amazon screenshot.png");
         FileHandler.copy(f1,dest1);
         Thread.sleep(5000);
-        //Get screenshot of complete page(Ashot)
+        //Get screenshot of complete page(Ashot) complete page
         AShot as=new AShot();
         ShootingStrategy shs=ShootingStrategies.viewportPasting(1000);
         Screenshot ss=as.shootingStrategy(shs).takeScreenshot(driver);
