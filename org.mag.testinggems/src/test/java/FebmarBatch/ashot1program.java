@@ -1,4 +1,4 @@
-// ashot program 2 where am uploading the prgroam from github to eclipse
+// ashot program 2 where am uploading the prgroam from github to eclipse - direclty modifying
 
 package FebmarBatch;
 import java.awt.image.BufferedImage;
